@@ -151,17 +151,13 @@ section > .container {
   flex-basis: 60%;
 }
   
-.flex > .full-col {
-  flex-basis: 100%;
-  background-color: darkgreen;
-}
 
-.small-col > h3 {
+.small-col > h3, .full-col > h3 {
   font-size: 35px;
   margin-top: 30px;
 }
 
-.small-col > p {
+.small-col > p , .full-col > p {
   font-size: 15px;
   margin-top: 20px;
 }
@@ -172,10 +168,37 @@ section > .container {
 }
 
 
- 
+.flex > .full-col {
+  flex-basis: 100%;
+  text-align: center;
+}
   
 
+.full-col img {
+  width: 700px;
+}
 
+.full-col h3 {
+  margin-bottom: 14px;
+}
+
+.full-col p {
+  margin-top: 2px;
+}
+.section-special {
+  height: 830px;
+}
+  
+h6 {
+  font-size: 20px;
+}
+
+.button.last {
+  color: white;
+  background-color: rgb(168,182,232);
+  margin-top: 15px;
+}
+  
   
   
 
