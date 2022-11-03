@@ -38,51 +38,111 @@ body {
 }
 
 header {
-  background-color: lightblue;
+ background-image: url('../img/jumbo.png');
+ background-size: cover;
+ color:white;
 }
 
 /* # Navbar */
 
 .navbar {
   height: 80px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
+  
 .navbar > * {
-  padding: 10px;
-  flex-basis: 20%;
-  background-color: goldenrod;
+  font-size: 14px;
+  flex-basis: 4%;
 }
 
 .navbar-menu {
   flex-grow: 1;
   text-align: center;
 }
-
+  
 .navbar-actions {
-  text-align: right;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 11px;
+  width: 60px;
+  padding: 9px;
+  border-radius: 20px;
 }
+  
+.navbar-menu a{
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
 
 /* # Jumbotron */
 
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
-
   display: flex;
   justify-content: center;
 }
-
+  
+  
 .jumbotron .content {
   width: 50%;
+  text-align: center;
   /* height: 100%; */
   /* margin: 0 auto; */
-  background-color: violet;
 }
+  
+.content h1 {
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+  
+.content p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+  
+.buttons {
+  padding: 35px;
+}
+
+.button {
+  padding: 14px;
+  margin: 0 10px;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+  
+.button.left {
+  color:black;
+  background-color: white;
+}
+  
+.button.right {
+  color:white;
+  background-color: black;
+}
+  
+
+
+
+
+
+
+
+
+ 
+  
+
+
+  
+  
 
 /* # Main & sections */
 section {
